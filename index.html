@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1549921296-3a6b2f2f8b8e') no-repeat center/cover;
+    background: linear-gradient(to right, black, #111);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,8 +23,13 @@ header {
     text-align: center;
 }
 
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     color: gold;
 }
 
@@ -43,6 +48,13 @@ h1 {
     text-align: center;
 }
 
+.car img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -57,12 +69,6 @@ h1 {
     width: 250px;
 }
 
-.cars img {
-    width: 300px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
 footer {
     text-align: center;
     padding: 20px;
@@ -74,10 +80,18 @@ footer {
 <body>
 
 <header>
+    <!-- Ø§ÙÙÙØ¬Ù -->
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Black_car_icon.png">
+
     <h1>Luxury Limousine</h1>
     <p>24/7 Chauffeur Service</p>
-    <a class="btn" href="https://wa.me/9627XXXXXXXX">Book on WhatsApp</a>
+    <a class="btn" href="https://wa.me/9627XXXXXXXX">Book Now</a>
 </header>
+
+<div class="section car">
+    <h2>Our Luxury Car</h2>
+    <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027">
+</div>
 
 <div class="section">
     <h2>Our Services</h2>
@@ -88,17 +102,10 @@ footer {
     </div>
 </div>
 
-<div class="section cars">
-    <h2>Our Cars</h2>
-    <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027">
-    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
-    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8">
-</div>
-
 <div class="section">
-    <h2>Contact Us</h2>
-    <p>Available 24/7 for booking</p>
-    <a class="btn" href="https://wa.me/+15046573911">Chat on WhatsApp</a>
+    <h2>Contact</h2>
+    <p>Available 24/7</p>
+    <a class="btn" href="https://wa.me/+15046573911>Chat on WhatsApp</a>
 </div>
 
 <footer>
