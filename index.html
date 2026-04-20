@@ -8,27 +8,24 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background: black;
     color: white;
-    text-align: center;
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1605559424843-9e4c2283c3a1') no-repeat center/cover;
+    background: url('https://images.unsplash.com/photo-1549921296-3a6b2f2f8b8e') no-repeat center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
     font-size: 50px;
     color: gold;
-}
-
-p {
-    font-size: 20px;
 }
 
 .btn {
@@ -43,6 +40,7 @@ p {
 
 .section {
     padding: 50px 20px;
+    text-align: center;
 }
 
 .services {
@@ -59,8 +57,14 @@ p {
     width: 250px;
 }
 
+.cars img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 footer {
-    background: #000;
+    text-align: center;
     padding: 20px;
     color: gray;
 }
@@ -71,17 +75,30 @@ footer {
 
 <header>
     <h1>Luxury Limousine</h1>
-    <p>24/7 Premium Chauffeur Service</p>
-    <a class="btn" href="https://wa.me/+15046573911>Book Now</a>
+    <p>24/7 Chauffeur Service</p>
+    <a class="btn" href="https://wa.me/9627XXXXXXXX">Book on WhatsApp</a>
 </header>
 
 <div class="section">
     <h2>Our Services</h2>
     <div class="services">
         <div class="card">Airport Transfer</div>
-        <div class="card">VIP Service</div>
-        <div class="card">Wedding Cars</div>
+        <div class="card">VIP Transport</div>
+        <div class="card">Weddings & Events</div>
     </div>
+</div>
+
+<div class="section cars">
+    <h2>Our Cars</h2>
+    <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027">
+    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8">
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+    <p>Available 24/7 for booking</p>
+    <a class="btn" href="https://wa.me/+15046573911">Chat on WhatsApp</a>
 </div>
 
 <footer>
