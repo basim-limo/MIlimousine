@@ -25,7 +25,8 @@ header {
 
 .logo {
     width: 320px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    animation: fadeIn 2s ease -in-out;
 }
 
 h1 {
@@ -49,11 +50,14 @@ h1 {
 }
 
 .car img {
-    width: 60%;
-    max-width: 50px;
-    border-radius: 10px;
+    width: 200%;
+    max-width: 350px;
+    border-radius: 15px;
     margin-top: 20px;
+    transition: transform 0.3s;
 }
+    .car img:hover {
+        transform: scale(1.05);
 
 .services {
     display: flex;
